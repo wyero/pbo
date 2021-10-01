@@ -1,0 +1,9 @@
+1.git init
+2.git add .
+3.git commit -m "test"
+4.git config --global --edit
+5.git branch -M main
+6.curl -u 'Wyero JR' https://api.github.com/uses/repos -d '{"name":"pbo","private":false}'
+7.git remote add origin git@github.com:wyero/pbo.git
+8.git branch -M main
+9.git push -u origin main
